@@ -16,3 +16,10 @@ model Depoimento {
   autor String
   imagem String?
 }
+
+model Destino {
+  id String @id @default(uuid())
+  nome String
+  preco Float
+  imagem String?
+}
